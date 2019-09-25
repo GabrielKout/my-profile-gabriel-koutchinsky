@@ -1,0 +1,79 @@
+body{
+	font-family: "Gayathri", sans-serif;
+	background-color: #8FD694;
+}
+
+h1{
+	color: #6F8F72;
+	letter-spacing: 1.9px;
+	font-weight: Bold
+}
+
+h2 {
+	color: black;
+	font-size: 20px ;
+	}
+
+h3{
+	color: #504B43;
+}
+
+li{
+	color: #7DBA84;
+}
+	
+div{
+	font-family: "Gayathri", sans-serif;
+}
+
+@media (max-width: 850px) {
+	div{
+		width: 600px;
+	}
+}
+
+@media (max-width: 650px) {
+	div{
+		width: 450px;
+	}
+}
+
+@media (max-width: 470px) {
+	div{
+		width: 250px;
+	}
+}
+
+.regular-circle{
+	border-radius: 50%;
+}
+
+.card-white{
+	margin: 30px;
+	padding: 30px;
+	text-align: center;
+	border-radius: 4%;
+	background-color: rgb(240,240,240);
+	box-shadow: 20px 20px 30px rgba(30,30,30,0.1);
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.container{
+	text-align: center;
+	width: 900px;
+	margin: 40px auto;
+}
+
+#le-wagon{
+	transition: 0.5s;
+	color: black;
+}
+
+#le-wagon:hover{
+	color: rgb(120,120,120);
+}
