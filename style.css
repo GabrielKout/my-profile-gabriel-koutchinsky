@@ -18,6 +18,11 @@ h3{
 	color: #504B43;
 }
 
+h4 {
+	color: #3ED250;
+	font-size: 18px; 
+}
+
 li{
 	color: #7DBA84;
 }
@@ -32,13 +37,13 @@ div{
 	}
 }
 
-@media (max-width: 650px) {
+@media (max-width: 720px) {
 	div{
 		width: 450px;
 	}
 }
 
-@media (max-width: 470px) {
+@media (max-width: 600px) {
 	div{
 		width: 250px;
 	}
@@ -57,6 +62,22 @@ div{
 	box-shadow: 20px 20px 30px rgba(30,30,30,0.1);
 }
 
+.card-green{
+	width: 400px;
+	margin: auto auto;
+	padding: 15px;
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 20px 20px 30px #8FD694;
+	transition: 0.5s;
+	background-color: #50C878;
+	text-decoration: none;
+}
+
+.card-green:hover{
+	color: black;
+}
+
 .list-inline{
 	list-style: none;
 	padding-left: 0px;
@@ -69,6 +90,14 @@ div{
 	margin: 40px auto;
 }
 
+.text-align-left{
+	text-align: left;
+}
+
+.no-text-decoration{
+	text-decoration: none;
+}
+
 #le-wagon{
 	transition: 0.5s;
 	color: black;
@@ -76,4 +105,9 @@ div{
 
 #le-wagon:hover{
 	color: rgb(120,120,120);
+}
+
+#linked-in{
+	transition: 0.5s;
+	color: white;
 }
